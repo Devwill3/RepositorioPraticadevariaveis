@@ -1,0 +1,24 @@
+//PRATICA DE VARIÁVEIS 
+
+//Variáveis = var 
+var nome 
+var idade
+var altura 
+var peso
+
+//Extrair valor ou informações do usuário
+nome = prompt("Manda seu nome")
+idade = parseInt(prompt("Manda sua idade"))
+altura = parseFloat(prompt("Manda sua altura"))
+peso = parseFloat(prompt("Manda seu peso"))
+peso = Math.floor(peso)
+
+//Descobrindo ano de nascimento
+var anoNasc
+anoNasc = 2023 - idade
+
+
+
+//Resumo das informações obtidas 
+console.log("Olá " + nome + ", sua idade é " + idade + " anos, nasceu em " + anoNasc + 
+", sua altura é " + altura + " e pesa " + peso + "kg")
